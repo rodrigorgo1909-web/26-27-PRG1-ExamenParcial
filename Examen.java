@@ -6,10 +6,16 @@ public class Examen {
         System.out.println("ingrese su edad");
         edad = scanner.nextInt();
 
-        if (edad >= 18) {
-            System.out.println("usted es mayor de edad")
-    } else {
-                        System.out.println("usted no es mayor de edad")
-                            scanner.close();
+        if (edad < 16) {
+            System.out.println("la edad no es valida")
+    } 
+            if (edad >= 99) {
+            System.out.println("la edad no es valida")
+    }
+                if (edad > 16 && edad >=99) {
+            System.out.println("la edad  es valida"){
+    }
+       
+      scanner.close();
         }
 }
