@@ -15,7 +15,10 @@ public class Examen {
                 if (edad > 16 && edad >=99) {
             System.out.println("la edad  es valida"){
     }
-       
+     System.out.println("¿Cuantas asignaturas cursa?")
+         int asignaturas = scanner.nextInt();
+         System.out.println("Cursa" + asignaturas + "asignaturas")
+
       scanner.close();
         }
 }
