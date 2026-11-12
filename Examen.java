@@ -28,6 +28,10 @@ public class Examen {
                 if (asignaturas >= 1 && < 10) {
             System.out.println(" numero es valido")
     }
+         for int( i=0;
+                    System.out.println("Ingrese nota de la asignatura")
+         int notas = scanner.nextInt();
+         System.out.println("Cursa" + asignaturas + "asignaturas")           
       scanner.close();
         }
 }
