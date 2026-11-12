@@ -19,6 +19,15 @@ public class Examen {
          int asignaturas = scanner.nextInt();
          System.out.println("Cursa" + asignaturas + "asignaturas")
 
+             if (asignaturas < 1) {
+            System.out.println(" el numero no es valido")
+    } 
+            if (asignaturas > 10) {
+            System.out.println(" el numero no es valido")
+    }
+                if (asignaturas >= 1 && < 10) {
+            System.out.println(" numero es valido")
+    }
       scanner.close();
         }
 }
